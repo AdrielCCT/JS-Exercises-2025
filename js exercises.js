@@ -14,6 +14,16 @@ function arithmetic(num1, num2) {
 //subtraction, multiplication, and division operations on them, and displays the results
 //in the browser console.
 //3. Write a JavaScript program that prints the numbers 1 to 10 using a for loop and
+
+for (let i=1; i<=10; i++) {
+    console.log(i);
+}
+
+let num=1;
+while (num<=10) {
+    console.log(num);
+    num++;
+}
 //another version using a while loop.
 //4. Write a JavaScript program that checks if a given number is even or odd and displays
 //the result in the browser console.
